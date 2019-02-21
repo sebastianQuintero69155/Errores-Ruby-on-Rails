@@ -1,0 +1,9 @@
+
+Cuando vamos asignar la llave en nuestro github con el siguinete comando cat ~ / .ssh / id_rsa.pub  y no saca el error de que no se encuentra la llave la solucion es creear la propia llave de la siguiente manera
+ssh-keygen -t rsa -b 4096 -C “your_email@example.com”
+ahora te preguntara si deseas que la clave SSH se guarde en ese directorio, das enter y después te pedirá contraseña
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+
+
