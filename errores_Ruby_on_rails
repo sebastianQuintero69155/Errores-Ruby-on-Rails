@@ -1,4 +1,9 @@
+cuando no nos arranca el servidor local mediante le comando rails s y nos muestra error en el navegador cuando se le da
+localhost:3000 la solucion es 
+En el documento gemfile en la gema "gem 'sqlite3'" le agregamos lo siguiente gem 'sqlite3', '~> 1.3.6' y con esto
+solucionamos el problema del servidor local
 
+------------------------------------------------------------------------------------------------------------------------
 Cuando vamos asignar la llave en nuestro github con el siguinete comando cat ~ /.ssh /id_rsa.pub 
 y no saca el error de que no se encuentra la llave la solucion es creear la propia llave de la siguiente manera
 ssh-keygen -t rsa -b 4096 -C “your_email@example.com”
