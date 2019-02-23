@@ -15,6 +15,10 @@ cuando vamos a realizar algun trabajo en la consola para que se pueda correr los
 abrir la consola con el siguiente comando "rails console" porque si abrimos la consola con "irb" no nos dejara 
 hacer busquedas en las tablas de la db
 ----------------------------------------------------------------------------------------------------------------------------
+cuando estamos agregando las llaves al servidor es necesario tener cuidado de poner adecuadamente los nombres
+ya que si ponemos key:add no nos va a permitir tener todas los permisos para poder navegar, es necesario poner 
+keys:add para que me deje tener todos los permisos.
+
 
 
 
