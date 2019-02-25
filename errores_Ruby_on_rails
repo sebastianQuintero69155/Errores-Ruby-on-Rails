@@ -19,6 +19,20 @@ cuando estamos agregando las llaves al servidor es necesario tener cuidado de po
 ya que si ponemos key:add no nos va a permitir tener todas los permisos para poder navegar, es necesario poner 
 keys:add para que me deje tener todos los permisos.
 
+-------------------------------------------------------------------------------------------------------------------------
+cuando estamos trabajando con los bootstrap y no nos adciona bien los complementos por ejemplo los navbar lo que
+debemos verificar es 
+1)en Gemfile tengamos instalado la ultima version de bootstrapgem 'bootstrap', '~> 4.0.0.alpha6'
+
+2)tambien debemos verificar que tengamos en el archivo app/assets/javascripts/application.js tengamos los siguiente
+//= require rails-ujs
+//= require jquery
+//= require bootstrap-sprockets
+
+3)Reemplazar el contenido de todos los archivos scss de app/assets/stylesheets por @import "bootstrap";
+
+
+
 
 
 
