@@ -28,9 +28,10 @@ debemos verificar es
 //= require rails-ujs
 //= require jquery
 //= require bootstrap-sprockets
+//= require bootstrap
 
 3)Reemplazar el contenido de todos los archivos scss de app/assets/stylesheets por @import "bootstrap";
-
+---------------------------------------------------------------------------------------------------------------------------
 
 
 
